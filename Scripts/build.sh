@@ -7,8 +7,8 @@ project="ci-build"
 
 
 
-echo "Attempting to build $project for Windows with projectpath $pwd :"
-ls -R $pwd
+echo "Attempting to build $project for Windows:"
+
 /Applications/Unity/Unity.app/Contents/MacOS/Unity \
   -batchmode \
   -logFile $(pwd)/unity.log \
