@@ -10,8 +10,8 @@ echo "Attempting to build $project for Windows"
   -batchmode \
   -nographics \
   -silent-crashes \
-  -logFile ./unity.log \
-  -projectPath . \
+  -logFile /unity.log \
+  -projectPath / \
   -buildWindowsPlayer "$(pwd)/Build/windows/$project.exe" \
   -quit
 
@@ -36,4 +36,4 @@ echo "Attempting to build $project for Windows"
 #  -quit
 
 echo 'Logs from build'
-cat $(pwd)/unity.log
+cat /unity.log
