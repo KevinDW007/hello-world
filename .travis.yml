@@ -10,4 +10,4 @@ install:
 script:
 - chmod +x ./Scripts/build.sh
 - ./Scripts/build.sh
-- ls -R /Build/windows/
+- ls -R $(pwd)/Build/windows/
